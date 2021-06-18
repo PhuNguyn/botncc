@@ -1,0 +1,19 @@
+module.exports.config = {
+	name: "threadimage",
+	version: "1.0.0",
+	hasPermssion: 1,
+	credits: "banledangyeuu",
+	description: "",
+	commandCategory: "Group",
+	usages: "threadimage",
+	cooldowns: 5,
+	dependencies: ["request","fs-extra"],
+};
+
+module.exports.run = async function({ api, event }) {
+const request = require("request");
+const fs = require("fs-extra");
+
+if (event.type != "message_reply") return api.sendMessage("Vui lòng reply 1 bức ảnh",event.threadID,event.messageID);
+(event.messageReply.attachments[0] != "") ? (event.messageReply.attachments[0].type == "photo") ? request(event.messageReply.attachments[0].url).pipe(fs.createWriteStream(__dirname + `/cache/picture.png`)).on("close",()=> api.changeGroupImage(fs.createReadStream(__dirname + `/cache/picture.png`),event.threadID, () => fs.unlinkSync(__dirname + `/cache/picture.png`))) : api.sendMessage("Nghiêm túc coi,mày reply cái gì thế",event.threadID,event.messageID) : ""
+}

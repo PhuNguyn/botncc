@@ -1,0 +1,2261 @@
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Url.parse (url.js:160:3)
+    at Object.urlParse [as parse] (url.js:155:13)
+    at dispatchHttpRequest (E:\v2\app\node_modules\axios\lib\adapters\http.js:91:22)
+    at new Promise (<anonymous>)
+    at httpAdapter (E:\v2\app\node_modules\axios\lib\adapters\http.js:46:10)
+    at dispatchRequest (E:\v2\app\node_modules\axios\lib\core\dispatchRequest.js:52:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tiktok.js:30:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Url.parse (url.js:160:3)
+    at Object.urlParse [as parse] (url.js:155:13)
+    at dispatchHttpRequest (E:\v2\app\node_modules\axios\lib\adapters\http.js:91:22)
+    at new Promise (<anonymous>)
+    at httpAdapter (E:\v2\app\node_modules\axios\lib\adapters\http.js:46:10)
+    at dispatchRequest (E:\v2\app\node_modules\axios\lib\core\dispatchRequest.js:52:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tiktok.js:30:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (E:\v2\app\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (E:\v2\app\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (E:\v2\app\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[31m[40mERR![0m [0m[35mlogin[0m Error retrieving userID. This can be caused by a lot of things, including getting blocked by Facebook for logging in from an unknown location. Try logging in with a browser to verify.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[31m[40mERR![0m [0m[35mlogin[0m Error: Cannot find module './handle/handleChangeName'
+[0m[31m[40mERR![0m [0m[35mlogin[0m Require stack:
+[0m[31m[40mERR![0m [0m[35mlogin[0m - E:\v2\app\includes\listen.js
+[0m[31m[40mERR![0m [0m[35mlogin[0m - E:\v2\app\mirai.js
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Module.require (internal/modules/cjs/loader.js:952:19)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at require (internal/modules/cjs/helpers.js:88:18)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at module.exports (E:\v2\app\includes\listen.js:33:27)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at E:\v2\app\mirai.js:221:52
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at E:\v2\app\node_modules\fca-unofficial\index.js:552:14
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at tryCatcher (E:\v2\app\node_modules\bluebird\js\main\util.js:26:23)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Promise._settlePromiseFromHandler (E:\v2\app\node_modules\bluebird\js\main\promise.js:510:31)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Promise._settlePromiseAt (E:\v2\app\node_modules\bluebird\js\main\promise.js:584:18)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Promise._settlePromises (E:\v2\app\node_modules\bluebird\js\main\promise.js:700:14)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Async._drainQueue (E:\v2\app\node_modules\bluebird\js\main\async.js:123:16)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Async._drainQueues (E:\v2\app\node_modules\bluebird\js\main\async.js:133:10)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Immediate.Async.drainQueues [as _onImmediate] (E:\v2\app\node_modules\bluebird\js\main\async.js:15:14)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at processImmediate (internal/timers.js:461:21)
+[0m[31m[40mERR![0m [0m[35mlogin[0m  Error: Cannot find module './handle/handleChangeName'
+[0m[31m[40mERR![0m [0m[35mlogin[0m Require stack:
+[0m[31m[40mERR![0m [0m[35mlogin[0m - E:\v2\app\includes\listen.js
+[0m[31m[40mERR![0m [0m[35mlogin[0m - E:\v2\app\mirai.js
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Module.require (internal/modules/cjs/loader.js:952:19)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at require (internal/modules/cjs/helpers.js:88:18)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at module.exports (E:\v2\app\includes\listen.js:33:27)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at E:\v2\app\mirai.js:221:52
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at E:\v2\app\node_modules\fca-unofficial\index.js:552:14
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at tryCatcher (E:\v2\app\node_modules\bluebird\js\main\util.js:26:23)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Promise._settlePromiseFromHandler (E:\v2\app\node_modules\bluebird\js\main\promise.js:510:31)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Promise._settlePromiseAt (E:\v2\app\node_modules\bluebird\js\main\promise.js:584:18)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Promise._settlePromises (E:\v2\app\node_modules\bluebird\js\main\promise.js:700:14)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Async._drainQueue (E:\v2\app\node_modules\bluebird\js\main\async.js:123:16)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Async._drainQueues (E:\v2\app\node_modules\bluebird\js\main\async.js:133:10)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at Immediate.Async.drainQueues [as _onImmediate] (E:\v2\app\node_modules\bluebird\js\main\async.js:15:14)
+[0m[31m[40mERR![0m [0m[35mlogin[0m     at processImmediate (internal/timers.js:461:21) {
+[0m[31m[40mERR![0m [0m[35mlogin[0m   code: 'MODULE_NOT_FOUND',
+[0m[31m[40mERR![0m [0m[35mlogin[0m   requireStack: [ 'E:\\v2\\app\\includes\\listen.js', 'E:\\v2\\app\\mirai.js' ]
+[0m[31m[40mERR![0m [0m[35mlogin[0m }
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeDatabaseError: SQLITE_ERROR: no such table: SequelizeMeta
+    at Query.formatError (E:\v2\app\node_modules\sequelize\lib\dialects\sqlite\query.js:403:16)
+    at Query._handleQueryResponse (E:\v2\app\node_modules\sequelize\lib\dialects\sqlite\query.js:72:18)
+    at afterExecute (E:\v2\app\node_modules\sequelize\lib\dialects\sqlite\query.js:238:27)
+    at Statement.errBack (E:\v2\app\node_modules\sqlite3\lib\sqlite3.js:14:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeDatabaseError: SQLITE_ERROR: no such table: SequelizeMeta
+    at Query.formatError (E:\v2\app\node_modules\sequelize\lib\dialects\sqlite\query.js:403:16)
+    at Query._handleQueryResponse (E:\v2\app\node_modules\sequelize\lib\dialects\sqlite\query.js:72:18)
+    at afterExecute (E:\v2\app\node_modules\sequelize\lib\dialects\sqlite\query.js:238:27)
+    at Statement.errBack (E:\v2\app\node_modules\sqlite3\lib\sqlite3.js:14:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Currencies.chanle is not a function
+    at Object.module.exports.run (E:\v2\app\modules\commands\taixiuchanle.js:85:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Currencies.chanle is not a function
+    at Object.module.exports.run (E:\v2\app\modules\commands\taixiuchanle.js:85:21)
+SyntaxError: Unexpected token , in JSON at position 266
+    at JSON.parse (<anonymous>)
+    at E:\v2\app\modules\commands\work.js:30:24
+    at E:\v2\app\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError: Cannot read property 'mainPath' of undefined
+    at E:\v2\app\mirai.js:155:4399
+    at Object.<anonymous> (E:\v2\app\mirai.js:155:11345)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+    at FSReqCallback.oncomplete (fs.js:171:23)
+TypeError: Cannot read property 'mainPath' of undefined
+    at E:\v2\app\mirai.js:155:4399
+    at Object.<anonymous> (E:\v2\app\mirai.js:155:11345)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+    at FSReqCallback.oncomplete (fs.js:171:23)
+TypeError: Cannot read property 'mainPath' of undefined
+    at E:\v2\app\mirai.js:155:4399
+    at Object.<anonymous> (E:\v2\app\mirai.js:155:11345)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+    at FSReqCallback.oncomplete (fs.js:171:23)
+TypeError: Cannot read property 'mainPath' of undefined
+    at E:\v2\app\mirai.js:155:4399
+    at Object.<anonymous> (E:\v2\app\mirai.js:155:11345)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+    at FSReqCallback.oncomplete (fs.js:171:23)
+TypeError: Cannot read property 'mainPath' of undefined
+    at E:\v2\app\mirai.js:155:4399
+    at Object.<anonymous> (E:\v2\app\mirai.js:155:11345)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+    at FSReqCallback.oncomplete (fs.js:171:23)
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+Error: Cannot find module './utils'
+Require stack:
+- E:\v2\app\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\v2\app\mirai.js:37:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at E:\v2\app\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (E:\v2\app\node_modules\async\internal\once.js:12:16)
+    at next (E:\v2\app\node_modules\async\waterfall.js:96:20)
+    at E:\v2\app\node_modules\async\internal\onlyOnce.js:12:16
+    at WriteStream.<anonymous> (E:\v2\app\node_modules\pm2\lib\Utility.js:186:13)
+    at WriteStream.emit (events.js:315:20)
+    at internal/fs/streams.js:380:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\covid.js:14:36)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\covid.js:14:36)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:477:28
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:477:70)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1162:12)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at Duplexify.ondata (E:\v2\app\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:315:20)
+    at addChunk (E:\v2\app\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:263:18)
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at Arguments.<anonymous> (E:\v2\app\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (E:\v2\app\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:263:18)
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at Arguments.<anonymous> (E:\v2\app\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (E:\v2\app\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at Arguments.<anonymous> (E:\v2\app\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (E:\v2\app\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:477:28
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:477:70)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1162:12)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at Duplexify.ondata (E:\v2\app\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:315:20)
+    at addChunk (E:\v2\app\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at Arguments.<anonymous> (E:\v2\app\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (E:\v2\app\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at Arguments.<anonymous> (E:\v2\app\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (E:\v2\app\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot destructure property 'allowInbox' of 'global[_0x5b9fc7(...)]' as it is undefined.
+    at E:\v2\app\includes\handle\handleCommand.js:1:5114
+    at E:\v2\app\includes\listen.js:48:8
+    at E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at parseDelta (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (E:\v2\app\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:315:20)
+    at Arguments.<anonymous> (E:\v2\app\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (E:\v2\app\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (E:\v2\app\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (E:\v2\app\node_modules\mqtt\lib\client.js:351:12)
+    at work (E:\v2\app\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (E:\v2\app\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (E:\v2\app\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\covid.js:14:36)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Url.parse (url.js:160:3)
+    at Object.urlParse [as parse] (url.js:155:13)
+    at dispatchHttpRequest (E:\v2\app\node_modules\axios\lib\adapters\http.js:91:22)
+    at new Promise (<anonymous>)
+    at httpAdapter (E:\v2\app\node_modules\axios\lib\adapters\http.js:46:10)
+    at dispatchRequest (E:\v2\app\node_modules\axios\lib\core\dispatchRequest.js:52:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tiktok.js:30:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+Error: ENOENT: no such file or directory, open 'E:\v2\app\modules\commands\src\1.png'
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: ENOENT: no such file or directory, open 'E:\v2\app\modules\commands\src\1.png'
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Url.parse (url.js:160:3)
+    at Object.urlParse [as parse] (url.js:155:13)
+    at dispatchHttpRequest (E:\v2\app\node_modules\axios\lib\adapters\http.js:91:22)
+    at new Promise (<anonymous>)
+    at httpAdapter (E:\v2\app\node_modules\axios\lib\adapters\http.js:46:10)
+    at dispatchRequest (E:\v2\app\node_modules\axios\lib\core\dispatchRequest.js:52:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tiktok.js:30:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (E:\v2\app\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (E:\v2\app\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (E:\v2\app\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'sendMessage' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\img.js:61:47)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: ENOENT: no such file or directory, open 'E:\v2\app\modules\commands\src\1.jpg'
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: ENOENT: no such file or directory, open 'E:\v2\app\modules\commands\src\1.jpg'
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (E:\v2\app\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (E:\v2\app\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (E:\v2\app\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (E:\v2\app\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (E:\v2\app\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (E:\v2\app\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: fs is not defined
+    at Object.module.exports.run (E:\v2\app\modules\commands\horror.js:14:5)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: request is not defined
+    at Object.module.exports.run (E:\v2\app\modules\commands\horror.js:380:7)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: request is not defined
+    at Object.module.exports.run (E:\v2\app\modules\commands\horror.js:380:7)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: ERR: Error when trying to request or maybe link is invalid
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:46:9)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:13)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Invalid URL!
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:30:19)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: ENOENT: no such file or directory, open 'E:\v2\app\modules\commands\src\1.m4a'
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: ENOENT: no such file or directory, open 'E:\v2\app\modules\commands\src\1.mp4'
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Invalid URL!
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:30:19)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (E:\v2\app\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (E:\v2\app\modules\commands\fbget.js:20:33)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: write EPROTO 9252:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1544:SSL alert number 80
+
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: connect ETIMEDOUT 184.27.123.90:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: connect ETIMEDOUT 184.27.122.82:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mError: connect ETIMEDOUT 184.27.122.139:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Url.parse (url.js:160:3)
+    at Object.urlParse [as parse] (url.js:155:13)
+    at dispatchHttpRequest (E:\v2\app\node_modules\axios\lib\adapters\http.js:91:22)
+    at new Promise (<anonymous>)
+    at httpAdapter (E:\v2\app\node_modules\axios\lib\adapters\http.js:46:10)
+    at dispatchRequest (E:\v2\app\node_modules\axios\lib\core\dispatchRequest.js:52:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tiktok.js:30:17)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (E:\v2\app\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (E:\v2\app\modules\commands\tik.js:19:14)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'indexOf' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\set.js:31:14)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'indexOf' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\set.js:31:14)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.<computed>.<computed> [as run] (E:\v2\app\modules\commands\xsmb.js:110:43)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.exports.<computed> [as BigDick] (E:\v2\app\modules\commands\sim.js:19:6605)
+    at Object.module.<computed>.<computed> [as run] (E:\v2\app\modules\commands\sim.js:19:8055)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.exports.<computed> [as BigDick] (E:\v2\app\modules\commands\sim.js:18:6605)
+    at Object.module.<computed>.<computed> [as run] (E:\v2\app\modules\commands\sim.js:18:8055)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'axios' of undefined
+    at Object.module.exports.<computed> [as BigDick] (E:\v2\app\modules\commands\sim.js:18:6605)
+    at Object.module.<computed>.<computed> [as run] (E:\v2\app\modules\commands\sim.js:18:8055)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (E:\v2\app\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (E:\v2\app\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (E:\v2\app\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (E:\v2\app\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (E:\v2\app\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (E:\v2\app\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: content is not defined
+    at Object.module.exports.run (E:\v2\app\modules\commands\sim.js:25:75)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: threadID is not defined
+    at E:\v2\app\modules\commands\sim.js:25:181
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'fs-extra' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\img.js:20:78)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'fs-extra' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\img.js:22:78)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'fs-extra' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\img.js:22:78)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'fs-extra' of undefined
+    at Object.module.exports.run (E:\v2\app\modules\commands\img.js:17:78)
+    at E:\v2\app\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: timeEnd is not defined
+    at Object.module.exports.run (C:\Users\Administrator\Desktop\motriv2\modules\commands\uptime.js:45:153)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: timeEnd is not defined
+    at Object.module.exports.run (C:\Users\Administrator\Desktop\motriv2\modules\commands\uptime.js:45:153)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: timeEnd is not defined
+    at Object.module.exports.run (C:\Users\Administrator\Desktop\motriv2\modules\commands\uptime.js:45:153)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: timeEnd is not defined
+    at Object.module.exports.run (C:\Users\Administrator\Desktop\motriv2\modules\commands\uptime.js:45:153)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: client is not defined
+    at Object.module.exports.run (C:\Users\Administrator\Desktop\motriv2\modules\commands\uptime.js:14:22)
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:57:12
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: timeEnd is not defined
+    at C:\Users\Administrator\Desktop\motriv2\modules\commands\uptime.js:22:39
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\sendMessage.js:175:16
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Promise._settlePromises (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:700:14)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:123:16)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mSyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (C:\Users\Administrator\Desktop\motriv2\modules\commands\thayboi.js:23:15)
+    at Request.self.callback (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:376:20)
+    at Request.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:376:20)
+    at IncomingMessage.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:482:28)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'destroy' of null
+    at Object.delData (C:\Users\Administrator\Desktop\motriv2\includes\controllers\threads.js:50:59)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'destroy' of null
+    at Object.delData (C:\Users\Administrator\Desktop\motriv2\includes\controllers\threads.js:50:59)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+SyntaxError: Unexpected token , in JSON at position 266
+    at JSON.parse (<anonymous>)
+    at C:\Users\Administrator\Desktop\motriv2\modules\commands\work.js:30:24
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:73:3)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mSyntaxError: Unexpected token , in JSON at position 266
+    at JSON.parse (<anonymous>)
+    at C:\Users\Administrator\Desktop\motriv2\modules\commands\work.js:30:24
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:73:3)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mSyntaxError: Unexpected token , in JSON at position 266
+    at JSON.parse (<anonymous>)
+    at C:\Users\Administrator\Desktop\motriv2\modules\commands\work.js:30:24
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:73:3)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mSyntaxError: Unexpected token , in JSON at position 266
+    at JSON.parse (<anonymous>)
+    at C:\Users\Administrator\Desktop\motriv2\modules\commands\work.js:30:24
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:73:3)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mSyntaxError: Unexpected token , in JSON at position 266
+    at JSON.parse (<anonymous>)
+    at C:\Users\Administrator\Desktop\motriv2\modules\commands\work.js:30:24
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\graceful-fs\graceful-fs.js:123:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:73:3)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'destroy' of null
+    at Object.delData (C:\Users\Administrator\Desktop\motriv2\includes\controllers\threads.js:50:59)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'destroy' of null
+    at Object.delData (C:\Users\Administrator\Desktop\motriv2\includes\controllers\threads.js:50:59)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Cannot find module '../events/join'
+Require stack:
+- C:\Users\Administrator\Desktop\motriv2\modules\commands\adduser.js
+- C:\Users\Administrator\Desktop\motriv2\mirai.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:885:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:730:27)
+    at Module.require (internal/modules/cjs/loader.js:957:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.module.exports.run (C:\Users\Administrator\Desktop\motriv2\modules\commands\adduser.js:26:15)
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:57:12
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: join is not defined
+    at adduser (C:\Users\Administrator\Desktop\motriv2\modules\commands\adduser.js:66:10)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (C:\Users\Administrator\Desktop\motriv2\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\Administrator\Desktop\motriv2\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Administrator\Desktop\motriv2\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Can't extract user metadata from the html page. Make sure that user does exist and try to use proxy
+    at TikTokScraper.getUserProfileInfo (C:\Users\Administrator\desktop\motriv2\node_modules\tiktok-scraper\build\core\TikTok.js:689:15)
+    at async Object.exports.getUserProfileInfo (C:\Users\Administrator\desktop\motriv2\node_modules\tiktok-scraper\build\entry.js:137:20)
+    at async Object.module.exports.run (C:\Users\Administrator\desktop\motriv2\modules\commands\tik.js:19:14)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Username is missing
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[31m[40mERR![0m [0m[35mlogin[0m Error retrieving userID. This can be caused by a lot of things, including getting blocked by Facebook for logging in from an unknown location. Try logging in with a browser to verify.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError: Cannot read property '1' of null
+    at Request._callback (C:\Users\Administrator\desktop\motriv2\modules\commands\mit.js:14:237)
+    at Request.self.callback (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:376:20)
+    at Request.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:376:20)
+    at IncomingMessage.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:482:28)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 503
+    at createError (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: connect ETIMEDOUT 208.113.201.37:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Script execution timed out after 100ms
+    at Script.runInContext (vm.js:143:18)
+    at doWithTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\vm2\lib\main.js:467:17)
+    at VM.run (C:\Users\Administrator\desktop\motriv2\node_modules\vm2\lib\main.js:849:10)
+    at Object.module.exports.run (C:\Users\Administrator\desktop\motriv2\modules\commands\run.js:23:5)
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:57:12
+Error: ffmpeg exited with code 1: Output #0, mp3, to 'pipe:1':
+Output file #0 does not contain any stream
+
+    at ChildProcess.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:182:22)
+    at ChildProcess.emit (events.js:376:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'substring' of undefined
+    at C:\Users\Administrator\desktop\motriv2\modules\commands\dog.js:20:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError: Cannot read property '1' of null
+    at Request._callback (C:\Users\Administrator\desktop\motriv2\modules\commands\mit.js:14:237)
+    at Request.self.callback (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:376:20)
+    at Request.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:376:20)
+    at IncomingMessage.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:482:28)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot set property 'rankup' of undefined
+    at Object.module.exports.run (C:\Users\Administrator\desktop\motriv2\modules\commands\rankup.js:78:26)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: URL must be string
+    at Object.getVideoUrl (C:\Users\Administrator\desktop\motriv2\node_modules\facebook-tools\src\getVideoUrl.js:10:37)
+    at Object.module.exports.run (C:\Users\Administrator\desktop\motriv2\modules\commands\fbget.js:20:33)
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:57:12
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: No video id found: undefined
+    at Object.exports.getVideoID (C:\Users\Administrator\desktop\motriv2\node_modules\ytdl-core\lib\url-utils.js:66:11)
+    at Function.exports.<computed> [as getInfo] (C:\Users\Administrator\desktop\motriv2\node_modules\ytdl-core\lib\info.js:470:29)
+    at ytdl (C:\Users\Administrator\desktop\motriv2\node_modules\ytdl-core\lib\index.js:19:8)
+    at Object.module.exports.handleReply (C:\Users\Administrator\desktop\motriv2\modules\commands\video.js:30:3)
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleReply.js:12:20
+    at C:\Users\Administrator\desktop\motriv2\includes\listen.js:49:8
+    at C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:477:28
+    at parseDelta (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:477:70)
+    at MqttClient.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:376:20)
+    at MqttClient._handlePublish (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:1162:12)
+    at MqttClient._handlePacket (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:351:12)
+    at work (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at Duplexify.ondata (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:376:20)
+    at addChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Duplexify.Readable.push (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Duplexify._forward (C:\Users\Administrator\desktop\motriv2\node_modules\duplexify\index.js:170:26)
+    at Transform.onreadable (C:\Users\Administrator\desktop\motriv2\node_modules\duplexify\index.js:134:10)
+    at Transform.emit (events.js:376:20)
+    at emitReadable_ (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+Error: ffmpeg exited with code 1: Output #0, mp3, to 'pipe:1':
+Output file #0 does not contain any stream
+
+    at ChildProcess.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:182:22)
+    at ChildProcess.emit (events.js:376:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: ffmpeg exited with code 1: Output #0, mp3, to 'pipe:1':
+Output file #0 does not contain any stream
+
+    at ChildProcess.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:182:22)
+    at ChildProcess.emit (events.js:376:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 503
+    at createError (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 404
+    at createError (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+    at new ClientRequest (_http_client.js:155:13)
+    at Object.request (http.js:94:10)
+    at Request.start (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:751:32)
+    at Request.end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1505:10)
+    at end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:564:14)
+    at Immediate._onImmediate (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:578:7)
+    at processImmediate (internal/timers.js:462:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+    at new ClientRequest (_http_client.js:155:13)
+    at Object.request (http.js:94:10)
+    at Request.start (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:751:32)
+    at Request.end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1505:10)
+    at end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:564:14)
+    at Immediate._onImmediate (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:578:7)
+    at processImmediate (internal/timers.js:462:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+    at new ClientRequest (_http_client.js:155:13)
+    at Object.request (http.js:94:10)
+    at Request.start (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:751:32)
+    at Request.end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1505:10)
+    at end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:564:14)
+    at Immediate._onImmediate (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:578:7)
+    at processImmediate (internal/timers.js:462:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+    at new ClientRequest (_http_client.js:155:13)
+    at Object.request (http.js:94:10)
+    at Request.start (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:751:32)
+    at Request.end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1505:10)
+    at end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:564:14)
+    at Immediate._onImmediate (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:578:7)
+    at processImmediate (internal/timers.js:462:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+    at new ClientRequest (_http_client.js:155:13)
+    at Object.request (http.js:94:10)
+    at Request.start (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:751:32)
+    at Request.end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:1505:10)
+    at end (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:564:14)
+    at Immediate._onImmediate (C:\Users\Administrator\desktop\motriv2\node_modules\request\request.js:578:7)
+    at processImmediate (internal/timers.js:462:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Input stream error: Status code: 404
+    at PassThrough.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:452:34)
+    at PassThrough.emit (events.js:376:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Input stream error: Status code: 404
+    at PassThrough.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:452:34)
+    at PassThrough.emit (events.js:376:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Input stream error: Status code: 404
+    at PassThrough.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:452:34)
+    at PassThrough.emit (events.js:376:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: well darn there was an error_result
+    at C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\getThreadInfo.js:189:17
+    at tryCatcher (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Promise._settlePromises (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\promise.js:700:14)
+    at Async._drainQueue (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\async.js:123:16)
+    at Async._drainQueues (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+RangeError: Maximum call stack size exceeded
+    at Object.decodeClientPayload (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\utils.js:1308:41)
+    at parseDelta (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:270:31)
+    at MqttClient.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:376:20)
+    at MqttClient._handlePublish (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:1162:12)
+    at MqttClient._handlePacket (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:351:12)
+    at work (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at Duplexify.ondata (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:376:20)
+    at addChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Duplexify.Readable.push (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mRangeError: Maximum call stack size exceeded
+    at Object.decodeClientPayload (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\utils.js:1308:41)
+    at parseDelta (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:270:31)
+    at MqttClient.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:376:20)
+    at MqttClient._handlePublish (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:1162:12)
+    at MqttClient._handlePacket (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:351:12)
+    at work (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (C:\Users\Administrator\desktop\motriv2\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at Duplexify.ondata (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:376:20)
+    at addChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Duplexify.Readable.push (C:\Users\Administrator\desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Request failed with status code 503
+    at createError (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Administrator\desktop\motriv2\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\desktop\motriv2\includes\handle\handleCommand.js:38:27
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+Error: ffmpeg exited with code 1: Output #0, mp3, to 'pipe:1':
+Output file #0 does not contain any stream
+
+    at ChildProcess.<anonymous> (C:\Users\Administrator\desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:182:22)
+    at ChildProcess.emit (events.js:376:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: join is not defined
+    at adduser (C:\Users\Administrator\Desktop\motriv2\modules\commands\adduser.js:66:10)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: well darn there was an error_result
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\getThreadInfo.js:189:17
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Promise._settlePromises (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:700:14)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:123:16)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: well darn there was an error_result
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\getThreadInfo.js:189:17
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Promise._settlePromises (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:700:14)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:123:16)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'adminIDs' of undefined
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommand.js:38:27
+[31m[40mERR![0m [0m[35mlogin[0m Error retrieving userID. This can be caused by a lot of things, including getting blocked by Facebook for logging in from an unknown location. Try logging in with a browser to verify.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'toLowerCase' of undefined
+    at Object.module.exports.event (C:\Users\Administrator\Desktop\motriv2\modules\commands\baicao.js:28:11)
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommandEvent.js:9:19
+    at C:\Users\Administrator\Desktop\motriv2\includes\listen.js:50:8
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:292:13
+    at parseDelta (C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:302:13)
+    at MqttClient.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:376:20)
+    at MqttClient._handlePublish (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:1162:12)
+    at MqttClient._handlePacket (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:351:12)
+    at work (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (C:\Users\Administrator\Desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Administrator\Desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Writable.write (C:\Users\Administrator\Desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at Duplexify.ondata (C:\Users\Administrator\Desktop\motriv2\node_modules\readable-stream\lib\_stream_readable.js:619:20)
+    at Duplexify.emit (events.js:376:20)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'ready' of undefined
+    at Object.module.exports.event (C:\Users\Administrator\Desktop\motriv2\modules\commands\baicao.js:64:14)
+    at C:\Users\Administrator\Desktop\motriv2\includes\handle\handleCommandEvent.js:9:19
+    at C:\Users\Administrator\Desktop\motriv2\includes\listen.js:50:8
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:247:26
+    at resolveAttachmentUrl (C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:247:58)
+    at parseDelta (C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:266:7)
+    at MqttClient.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\src\listenMqtt.js:182:9)
+    at MqttClient.emit (events.js:376:20)
+    at Arguments.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:1150:27)
+    at Object.MqttClient.options.customHandleAcks (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:152:150)
+    at MqttClient._handlePublish (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:1143:15)
+    at MqttClient._handlePacket (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:351:12)
+    at work (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:283:12)
+    at Writable.writable._write (C:\Users\Administrator\Desktop\motriv2\node_modules\mqtt\lib\client.js:294:5)
+    at doWrite (C:\Users\Administrator\Desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\Administrator\Desktop\motriv2\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+TypeError: Cannot read property 'forEach' of null
+    at Request._callback (C:\Users\Administrator\Desktop\motriv2\modules\commands\trans.js:40:15)
+    at Request.self.callback (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:376:20)
+    at Request.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:376:20)
+    at IncomingMessage.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:482:28)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1117:15
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Function.Promise.attempt.Promise.try (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\method.js:31:24)
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1064:24
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:128:12)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1117:15
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Function.Promise.attempt.Promise.try (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\method.js:31:24)
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1064:24
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:128:12)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1117:15
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Function.Promise.attempt.Promise.try (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\method.js:31:24)
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1064:24
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:128:12)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1117:15
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Function.Promise.attempt.Promise.try (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\method.js:31:24)
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1064:24
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:128:12)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1117:15
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Function.Promise.attempt.Promise.try (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\method.js:31:24)
+    at C:\Users\Administrator\Desktop\motriv2\node_modules\fca-unofficial\utils.js:1064:24
+    at tryCatcher (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\promise.js:584:18)
+    at Async._drainQueue (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:128:12)
+    at Async._drainQueues (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Administrator\Desktop\motriv2\node_modules\bluebird\js\main\async.js:15:14)
+    at processImmediate (internal/timers.js:462:21)
+[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error: Input stream error: Status code: 404
+    at PassThrough.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:452:34)
+    at PassThrough.emit (events.js:376:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+TypeError: Cannot read property '1' of null
+    at Request._callback (C:\Users\Administrator\Desktop\motriv2\modules\commands\mit.js:14:237)
+    at Request.self.callback (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:376:20)
+    at Request.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:376:20)
+    at IncomingMessage.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:482:28)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mTypeError: Cannot read property '1' of null
+    at Request._callback (C:\Users\Administrator\Desktop\motriv2\modules\commands\mit.js:14:237)
+    at Request.self.callback (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:376:20)
+    at Request.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:376:20)
+    at IncomingMessage.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:482:28)
+    at IncomingMessage.emit (events.js:388:22)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0mYou have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+[object Object]
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: ffmpeg exited with code 1: Output #0, mp3, to 'pipe:1':
+Output file #0 does not contain any stream
+
+    at ChildProcess.<anonymous> (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:182:22)
+    at ChildProcess.emit (events.js:376:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m[33mWARNING:[0m ytdl-core is out of date! Update with "npm install ytdl-core@latest".
+Error: Output stream closed
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\motriv2\node_modules\fluent-ffmpeg\lib\processor.js:491:25)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+[32minfo[0m [0m[35mlogin[0m Logged in as 782050216
+[0m[32minfo[0m [0m[35mlogin[0m Got this account's message region: ATN
+[0m[32minfo[0m [0m[35mlogin[0m Done logging in.
+[0m

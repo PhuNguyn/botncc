@@ -1,0 +1,45 @@
+module.exports.config = {
+	name: "eimage",
+	version: "1.0.0",
+	hasPermssion: 0,
+	credits: "MewMew",
+	description: "",
+	commandCategory: "1",
+	usages: "eimage",
+	cooldowns: 5,
+	dependencies: ['path', 'fs-extra','axios']
+};
+
+module.exports.run = async function({ event, api, client, args, __GLOBAL }) {
+	var fs = require("fs-extra");
+	var data = __GLOBAL.pinned;
+	if(!args) {
+		if data[event.ThreadID]{
+			var list = data[event.ThreadID].join("\n- ");
+			api.sendMessage("Pins:\n-"+list,event.threadID)
+		}
+		else api.sendMessage("Nothings",event.threadID)
+
+	} else if (args[0] == "del"){
+		var delPin = args.slice(4, args.length);
+		var list = data[event.ThreadID];
+		if (list.some(e => e == delPin)) {
+			list.splice(list.indexOf(delPin),1);
+			api.sendMessage("Removed: " + delPin,event.threadID)
+		}else {
+			api.sendMessage("Not found!",event.threadID);
+		}
+	} else {
+		if (data[event.ThreadID]) {
+			data[event.ThreadID].push(args.join(" ").slice(4, args.length));
+			api.sendMessage("Added:" + ${args.join(" ").slice(4, args.length)},event.threadID);
+		}
+		else {
+			data[event.ThreadID] = args.join(" ").slice(4, args.length)
+			api.sendMessage("Added:" + ${args.join(" ").slice(4, args.length)},event.threadID);
+		}
+	}
+	
+}
+
+                                                                 

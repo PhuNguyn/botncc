@@ -1,0 +1,84 @@
+{
+    "DeveloperMode": false,
+    "AutoChangeName": false,
+    "autoCreateDB": true,
+    "allowInbox": false,
+    "EMAIL": "yayouknowme@hotmail.com",
+    "PASSWORD": "//kirraz",
+    "OTPKEY": "S77D LGTS FSN6 7XN3 QYON 35Q7 64N2 5KPA",
+    "BOTNAME": "Mochi",
+    "PREFIX": "#",
+    "ADMINBOT": "100000529101886",
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "checktt": {
+        "maxColumn": 10
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "gif": {
+        "TENOR": "73YIAOY3ACT1"
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "safety-check": {
+        "APIKEY": "AIzaSyAyPQHnnLU2S6Fqy2x6eZIyFOQGe6Xwiek"
+    },
+    "sauce": {
+        "SAUCENAO_API": "61e802b1478f8e85198f28ed6ac2de6efe5d0a41"
+    },
+    "shortlink": {
+        "bitlyAPI": ""
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyCtO4wLzIkOU6aXGXMhnSx28xsO2u9y9iU",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "steal": {
+        "cooldownTime": 1200000
+    },
+    "weather": {
+        "OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "caesar": {
+        "caeserPassword": "266303"
+    },
+    "crime": {
+        "cooldownTime": 1200000
+    },
+    "ghep": {
+        "cooldownTime": 300000
+    },
+    "slut": {
+        "cooldownTime": 1200000
+    },
+    "video": {
+        "YOUTUBE_API": "AIzaSyCtO4wLzIkOU6aXGXMhnSx28xsO2u9y9iU",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "minecraft": {
+        "YOUTUBE_API": "AIzaSyCtO4wLzIkOU6aXGXMhnSx28xsO2u9y9iU",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub",
+        "Hypixel_api_key": "AIzaSyCtO4wLzIkOU6aXGXMhnSx28xsO2u9y9iU",
+        "HYPIXEL_API": "2aaba24d-7fb5-4003-8bfb-d8458a9499a1"
+    },
+    "restart": {
+        "unsendMessageAfter": 5
+    },
+    "tik": {
+        "TENOR": "73YIAOY3ACT1"
+    },
+    "tiktok": {
+        "TENOR": "73YIAOY3ACT1"
+    }
+}

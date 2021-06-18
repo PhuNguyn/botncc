@@ -1,0 +1,65 @@
+module.exports.config = {
+  name: "resend",
+  version: "1.0.1",
+  hasPermssion: 1,
+  credits: "MewMew",
+  description: "",
+  commandCategory: "Group",
+  usages: "resend",
+  cooldowns: 5,
+  dependencies: ["https"]
+};
+
+module.exports.event = async function({ api, client, Users, event}) { 
+  var https = require("https");
+  var list = [], num = 0;
+  var short = (url) => new Promise((resolve, reject) => https.get('https://tinyurl.com/api-create.php?url=' + encodeURIComponent(url), res => res.on('data', chunk => resolve(chunk.toString()))).on("error", err => reject(err)));
+  if (event.messageID && event.type != "message_unsend") {
+    var messageID = event.messageID;
+    client.message.set(messageID, { senderID: event.senderID, body: event.body, attachments: event.attachments });
+  }
+    let settings = (await Threads.getData(event.threadID)).settings;
+    if (!settings["antiout"] || !settings ) return;
+    if (event.type == "message_unsend") {
+      if (client.message.has(event.messageID)) {
+        var data = client.message.get(event.messageID);
+        var name = await Users.getName(data.senderID);
+        //name = `╲⎝⧹` + name + `⧸⎠╱`;
+        if (data.attachments.length >= 1) {
+           for (let e of data.attachments) {
+            var F = await short(e.url);
+            list.push(`${num+=1}. ${F}`)
+           }
+           api.sendMessage(`${name}\n${"vừa gỡ "+ list.length + " tệp:\n" + list.join("\n")}`,event.threadID)
+        }
+        else api.sendMessage(`${name}\nvừa gỡ 1 tin nhắn:\n${data.body}`,event.threadID);
+        client.message.delete(event.messageID);
+      }
+  }
+}
+
+module.exports.run = function({ api, client, args, event}) {
+	if (args.length == 0) return api.sendMessage("Input không được để trống", event.threadID, event.messageID);
+    let settings = (await Threads.getData(event.threadID)).settings;
+    switch (args[0]) {
+        case "on": {
+            settings["resend"] = true;
+            await Threads.setData(event.threadID, options = { settings });
+            client.threadSetting.set(event.threadID, settings);
+            api.sendMessage("Đã bật resend!", event.threadID);
+            break;
+        }
+        case "off": {
+            settings["resend"] = false;
+            await Threads.setData(event.threadID, options = { settings });
+            client.threadSetting.set(event.threadID, settings);
+            api.sendMessage("Đã tắt resend!", event.threadID);
+            break;
+        }
+    
+        default: {
+            utils.throwError("resend", event.threadID, event.messageID);
+            break;
+        }
+	}
+}
