@@ -3,10 +3,10 @@
     "AutoChangeName": false,
     "autoCreateDB": true,
     "allowInbox": false,
-    "EMAIL": "yayouknowme@hotmail.com",
-    "PASSWORD": "//kirraz",
+    "EMAIL": "",
+    "PASSWORD": "",
     "OTPKEY": "S77D LGTS FSN6 7XN3 QYON 35Q7 64N2 5KPA",
-    "BOTNAME": "Mochi",
+    "BOTNAME": "",
     "PREFIX": "#",
     "ADMINBOT": "100000529101886",
     "DATABASE": {
